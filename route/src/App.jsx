@@ -8,7 +8,7 @@ import Layout from './Layout';
 
 const appRouter = createHashRouter([
   {
-    path: '/react-routing',
+    path: '/',
     element: <Layout />,
     children: [
       { path: '/', element: <Home /> },

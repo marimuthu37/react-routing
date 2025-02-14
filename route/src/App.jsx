@@ -14,10 +14,10 @@ const appRouter = createBrowserRouter([
     element: <Layout />, 
     children: 
     [
-      {path: '/', element: <Home />},
-      { path: 'about', element: <About /> }, 
-      { path: 'contact', element: <Contact /> },
-      {path: 'login',element:<Login />},
+      {path: '/react-routing/', element: <Home />},
+      { path: '/react-routing/about/', element: <About /> }, 
+      { path: '/react-routing/contact/', element: <Contact /> },
+      {path: '/react-routing/login/',element:<Login />},
       {path: '*', element: <h1>Not Found</h1>}
     ]
   }
